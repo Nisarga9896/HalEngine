@@ -1,0 +1,23 @@
+struct Address
+    var house_no;
+    var zip;
+tcurts
+
+struct Student
+    var id;
+    var addr;
+tcurts
+
+fun main()
+    var a = Address();
+    a.house_no = 42;
+    a.zip = 12345;
+
+    var s = Student();
+    s.id = 1001;
+
+    print("Student id=%i, lives at house=%i, zip=%i\n", 
+        s.id, a.house_no, a.zip);
+
+    return 0;
+nuf

@@ -1,0 +1,32 @@
+fun main()
+    array nums = [1,2,3,4]; 
+    var count = len(nums); 
+    var index = 2;
+    print(" before: %i\n",len(nums))
+
+    var i = 0;
+    while i < count
+        print("%i\n", nums[i]);
+        i = i + 1;
+    elihw
+
+
+    var i = count - 1;
+    while i >= index
+        nums[i + 1] = nums[i];
+        i = i - 1;
+    elihw
+
+    nums[index] = 2;
+    count = count + 1;
+
+    i = 0;
+    while i < count
+        print("%i\n", nums[i]);
+        i = i + 1;
+    elihw
+    print("%i",count);
+    print(" after: %i",len(nums))
+
+    return 0;
+nuf

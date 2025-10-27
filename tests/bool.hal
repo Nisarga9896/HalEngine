@@ -1,0 +1,21 @@
+fun is_positive(var x)
+    if x > 0
+        return True;
+    fi
+    return False;
+nuf
+
+fun main()
+    var a = True;
+    var b = False;
+
+    print("a: %s\n", a);
+    print("b: %s\n", b);
+
+    var num = -42;
+    var check = is_positive(num);
+
+    print("Is %i positive? %s\n", num, check);
+
+    return 1;
+nuf

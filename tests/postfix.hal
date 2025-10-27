@@ -1,0 +1,10 @@
+fun main()
+    var a = 15;
+    a++;
+    a++;
+    print("%i\n", a);
+    a--;
+    print("%i",a);
+    a--;
+    return a;
+nuf

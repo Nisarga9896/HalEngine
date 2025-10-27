@@ -1,0 +1,8 @@
+fun main()
+    var c = 5;
+    var p = ref(c);
+    print("%i\n", deref(p));
+    deref(p) = 7;
+    print("%i\n", c);
+    return 0;
+nuf

@@ -1,0 +1,7 @@
+fun main()
+    print("Enter a number: ");
+    var n = input();
+    print("You entered: %i\n", n);
+    var b=n+10;
+    return b;
+nuf

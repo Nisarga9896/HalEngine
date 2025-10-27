@@ -1,0 +1,15 @@
+define add(let x,let y)
+    return x + y;
+end
+
+fun main()
+    var result = add(10,3);
+    var a=10;
+    print("%i",result);
+    var c=3.14;
+    var d=4.3+c;
+    a--;
+    a++;
+    return result;
+nuf
+@there is no difference whne there's no different

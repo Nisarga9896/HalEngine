@@ -1,0 +1,27 @@
+load "math";
+
+fun main()
+    var sum = add(5, 10);
+    print("%i\n",k);
+    var product = mul(2, 3);
+    print("Sum: %i\n", sum);
+    print("Product: %i\n", product);
+    print("Max: %i\n", max(5, 8));
+    print("Min: %i\n", min(5, 8));
+    print("Abs: %i\n", abs(-42));
+    print("Mod: %i\n", mod(10, 3));
+    print("pow: %i\n",pow(10,3));
+    print("even: %i\n",isEven(1));
+    print("gcd: %i\n",gcd(10,5));
+    array a=[1,2,3,4];
+    
+    var t=len(a);
+    var s=addArray(a,3);
+    print("Sum: %i\n", s);
+    print("sub: %i\n", subArray(a,len(a)));
+    print("p: %i\n", mulArray(a,len(a)));
+    print("max: %i\n", maxArray(a,len(a)));
+    print("min: %i\n", minArray(a,len(a)));
+    print("sum=%i\n",sumar(a));
+    return t;
+nuf

@@ -1,0 +1,16 @@
+fun main()
+array a = [1, 2, 3, 4,4,5,6,6,64433];
+var b=a[8];
+var c=a[0];
+var d=b+c;
+print("%i \n",a[0]);
+
+var q=a[0]+a[1]+a[2];
+print("enter a nuber");
+
+print("%i   \n ",a[2]);
+print("%i\n",q);
+print("ft\n");
+
+return b;
+nuf
