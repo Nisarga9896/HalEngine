@@ -48,8 +48,3 @@ fun main()
     print("Sum:", c);
     return 0;
 nuf
-
-
-
-
-
